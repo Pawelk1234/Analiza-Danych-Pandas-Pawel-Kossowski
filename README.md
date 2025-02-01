@@ -38,13 +38,13 @@ Now you're ready to run the project!
 ## Code Explanation
 Below is an outline of the logical flow in the provided code:
 
-Data Cleaning
-Converts all string columns to uppercase.
-Drops duplicate collision entries using COLLISION_ID.
-Creates new columns (TOTAL_KILLED, TOTAL_INJURED, TOTAL_KILLED/INJURED) for simplified analysis.
-Melts multiple “contributing factor” columns into a single column for cause-based analysis.
-Exploratory Analysis
-Identifies the top 3 collision causes per borough in terms of both frequency and severity (injuries/kills).
+### Data Cleaning
+* Converts all string columns to uppercase.
+* Drops duplicate collision entries using COLLISION_ID.
+* Creates new columns (TOTAL_KILLED, TOTAL_INJURED, TOTAL_KILLED/INJURED) for simplified analysis.
+* Melts multiple “contributing factor” columns into a single column for cause-based analysis.
+### Exploratory Analysis
+* Identifies the top 3 collision causes per borough in terms of both frequency and severity (injuries/kills).
 Examines patterns specifically related to unsafe speed accidents.
 Visualizes the most common accident causes across different boroughs.
 Vehicle Type Analysis
